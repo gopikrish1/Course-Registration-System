@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Courses</title>
+    <script type="text/javascript" src="myScript.js"></script>
+</head>
+<body>
+    <h2 style="text-align: center;">Available Courses</h2>
+    <table align="center" style="border-color: black;"  border="1">
+        <tr align="center" style="background-color: lightgray;">
+            <th width="100">Course Id</th>
+            <th width="160">Course Name</th>
+            <th width="150">Trainer</th>
+            <th width="100">Duration</th>
+        </tr>
+        <!-- table body where the rows will be inserted -->
+        <tbody align="center" id="courseTable"></tbody>
+    </table>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            showCourses();
+        };
+    </script>
+</body>
+</html>
